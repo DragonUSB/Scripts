@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Galeria de Imagenes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="galeria">
+        <div style="background-image: url('/home/bernardoconquet/Documentos/Fotos/foto1.jpg');"></div>
+        <div style="background-image: url('/home/bernardoconquet/Documentos/Fotos/foto2.jpg');"></div>
+        <div style="background-image: url('/home/bernardoconquet/Documentos/Fotos/foto3.jpg')"></div>
+        <div style="background-image: url('/home/bernardoconquet/Documentos/Fotos/foto4.jpg')"></div>
+        <div style="background-image: url('/home/bernardoconquet/Documentos/Fotos/foto5.jpg')"></div>
+        <div style="background-image: url('/home/bernardoconquet/Documentos/Fotos/foto6.jpg')"></div>
+        <div style="background-image: url('/home/bernardoconquet/Documentos/Fotos/foto7.jpg')"></div>
+        <div style="background-image: url('/home/bernardoconquet/Documentos/Fotos/foto8.jpg')"></div>
+        <div style="background-image: url('/home/bernardoconquet/Documentos/Fotos/foto9.jpg')"></div>
+        <div style="background-image: url('/home/bernardoconquet/Documentos/Fotos/foto10.jpg')"></div>
+    </div>
+</body>
+
+<style>
+    .galeria {
+        display: flex;
+        height: 20rem;
+        gap: 1rem;
+    }
+
+    .galeria > div {
+        flex: 1;
+        border-radius: 1rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+        transition: all .8s cubic-bezier(0.25, 0.4, 0.45, 1.4);
+    }
+
+    .galeria > div:hover {
+        flex: 5;
+    }
+</style>
+</html>

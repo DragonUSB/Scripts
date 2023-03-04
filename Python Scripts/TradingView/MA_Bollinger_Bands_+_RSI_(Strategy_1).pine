@@ -1,0 +1,206 @@
+//@version=4
+strategy("MA Bollinger Bands + RSI (Strategy)", shorttitle="MABB+RSI (Strat)", overlay=true)
+
+
+
+////// User input //////
+
+MAtype   = input(title="MA Type"           ,type=input.string  ,defval="SMA" ,group="MABB"      ,tooltip="Type of moving average used for standard deviation", options=["SMA","EMA","WMA","VWMA","HMA"])
+MAlen    = input(title="MA Length"         ,type=input.integer ,defval=200   ,group="MABB"      ,tooltip="Moving average lookback")
+BBlen    = input(title="SDev. Length"      ,type=input.integer ,defval=200   ,group="MABB"      ,tooltip="Standard deviation lookback")
+BBmult   = input(title="SDev. Multiplier"  ,type=input.float   ,defval=2.0   ,group="MABB"      ,tooltip="Set upper & lower bounds closer / appart", step=0.01, minval=0.001)
+RSIlen   = input(title="RSI Length"        ,type=input.integer ,defval=6     ,group="RSI"       ,tooltip="Relative Strenght Index lookback")
+RSIN     = input(title="RSI Neutral"       ,type=input.integer ,defval=50    ,group="RSI"       ,tooltip="Defines the level at wich RSI neutral crossover or crossunder occurs")
+RSINlen  = input(title="RSI Cross Lookback",type=input.integer ,defval=10    ,group="RSI"       ,tooltip="How many bars back (from BBbull or BBbear cross) to look for corresponding RSI neutral cross", minval=0, maxval=1000) 
+SLenable = input(title="Enable SL"         ,type=input.bool    ,defval=false ,group="Stop Loss" ,tooltip="If not, strategy will trade a certain direction then close and reverse uppon opposite direction entry signal")
+REenter  = input(title="Allow re-Entry"    ,type=input.bool    ,defval=false ,group="Stop Loss" ,tooltip="Allow re-entry in same direction (as previous trade) if previous trade's stop loss was hit and new signal occurs")
+SLprct   = input(title="SL Distance %"     ,type=input.float   ,defval=6.0   ,group="Stop Loss" ,tooltip="Increase stop loss distance from closing price by x %")
+source   = input(title="Price Source"      ,type=input.source  ,defval=close ,group="Other"     ,tooltip="Set different price source for most mentions of price data in this script")
+
+
+////// In-built indicators //////
+
+RSI   = rsi   (source, RSIlen)
+BBdev = stdev (source, BBlen) * BBmult
+MA    = sma   (source, MAlen)
+if MAtype == "HMA"
+    MA := hma (source, MAlen)
+if MAtype == "WMA"
+    MA := wma (source, MAlen)
+if MAtype == "EMA"
+    MA := ema (source, MAlen)
+if MAtype == "VWMA"
+    MA := vwma(source, MAlen)
+
+
+////// Signals calculations & combined validation //////
+
+// Bollinger bands
+BBupper = MA + BBdev
+BBlower = MA - BBdev
+
+BBbull = open < BBlower and close > BBlower
+BBbear = open > BBupper and close < BBupper
+
+// Relative Strenght Index
+RSIcrossover  = crossover (RSI, RSIN)
+RSIcrossunder = crossunder(RSI, RSIN)
+
+RSIbull = false
+for i = 0 to RSINlen
+    if RSIcrossover[i]  == true
+        RSIbull := true
+RSIbear = false
+for i = 0 to RSINlen
+    if RSIcrossunder[i] == true
+        RSIbear := true
+
+// Combined validation
+longsignal  = BBbull and RSIbull
+shortsignal = BBbear and RSIbear
+
+
+////// Determine first signal direction change //////
+
+var lastsignalislong  = false 
+var lastsignalisshort = false
+if longsignal 
+    lastsignalislong  := true
+    lastsignalisshort := false
+if shortsignal
+    lastsignalislong  := false
+    lastsignalisshort := true
+
+var newtradedirection = false
+if  lastsignalislong  == true and lastsignalislong[1]  == false 
+ or lastsignalisshort == true and lastsignalisshort[1] == false
+    newtradedirection := true
+else
+    newtradedirection := false
+
+
+////// SL calculations and value storing //////
+
+longSL  = close - close * SLprct / 100
+shortSL = close + close * SLprct / 100
+
+var SLlongsaved  = 0.0 
+var SLshortsaved = 0.0 
+if longsignal   and newtradedirection
+ or longsignal  and strategy.position_size == 0 
+    SLlongsaved  := longSL 
+if shortsignal  and newtradedirection
+ or shortsignal and strategy.position_size == 0
+    SLshortsaved := shortSL
+
+
+////// Plots to the chart //////
+
+// Signals
+plotchar(longsignal , title="Long Signal" , char='⬆', location=location.belowbar, size=size.tiny, color=#3064fc)
+plotchar(shortsignal, title="Short Signal", char='⬇', location=location.abovebar, size=size.tiny, color=#fc1049)
+
+// Stop Losses
+plot(longsignal  and (newtradedirection or strategy.position_size == 0) ? SLlongsaved  : na, title="Long SL" , color=color.red, style=plot.style_linebr, linewidth=6)
+plot(shortsignal and (newtradedirection or strategy.position_size == 0) ? SLshortsaved : na, title="Short SL", color=color.red, style=plot.style_linebr, linewidth=6)
+
+// Bollinger Bands
+plot(MA, title="Moving average" , color=color.new(color.white, 50))
+upperline = plot(BBupper,title="Upper Bound", color=color.new(color.gray, transp=60))
+lowerline = plot(BBlower,title="Lower Bound", color=color.new(color.gray, transp=60))
+fill(upperline, lowerline, color=color.new(color.white, transp=92))
+
+
+////// Strategy Entry & Exit //////
+
+// Longs
+if longsignal  and newtradedirection
+    strategy.entry(id="Long"           ,long=true)
+strategy.exit     (id="Long exit1"  ,from_entry="Long",
+ limit = newtradedirection ? BBupper : na, 
+ stop  = SLenable ? SLlongsaved  : na,
+ when  = strategy.position_size > 0)
+
+if longsignal  and strategy.position_size == 0 and REenter
+    strategy.entry(id="Long after SL"  ,long=true)
+strategy.exit     (id="Long exit2"  ,from_entry="Long after SL",
+ limit = newtradedirection ? BBupper : na,
+ stop  = SLenable ? SLlongsaved  : na,
+ when  = strategy.position_size > 0)
+
+// Shorts
+if shortsignal and newtradedirection
+    strategy.entry(id="Short"          ,long=false)
+strategy.exit     (id="Short exit1" ,from_entry="Short",
+ limit = newtradedirection ? BBlower      : na,
+ stop  = SLenable          ? SLshortsaved : na, 
+ when  = strategy.position_size < 0)
+
+if shortsignal and strategy.position_size == 0 and REenter
+    strategy.entry(id="Short after SL" ,long=false)
+strategy.exit     (id="Short exit2" ,from_entry="Short after SL",
+ limit = newtradedirection ? BBlower      : na,
+ stop  = SLenable          ? SLshortsaved : na,
+ when  = strategy.position_size < 0)
+
+
+
+
+
+///////////////////////////////////////////////////
+/////////////// UNUSED CODE & NOTES ///////////////
+///////////////////////////////////////////////////
+
+
+////// User input //////
+
+// RSIlvlOB = input(title="RSI Overbough"   ,type=input.integer, defval=70   , group="RSI")
+// RSIlvlOS = input(title="RSI Oversold"    ,type=input.integer, defval=30   , group="RSI")
+
+
+////// Count Variables //////
+
+// // Long and Short SIGNAL count 
+// var longsignalcount = 0
+// var shortsignalcount = 0
+// if longsignal 
+//     longsignalcount := longsignalcount + 1
+// if shortsignal
+//     shortsignalcount := shortsignalcount + 1
+
+// // Long and Short EXIT count 
+// var longexitcount = 0
+// var shortexitcount = 0
+// if strategy.position_size == 0 and strategy.position_size[1] == 1
+//     longexitcount := longexitcount + 1
+// if strategy.position_size == 0 and strategy.position_size[1] == -1
+//     shortexitcount := shortexitcount + 1
+
+
+////// Plot string to chart with labels //////
+
+// lblcheck= input(title="Label bar Index"  , type=input.integer , defval=0)
+// lab1 = label.new(bar_index[lblcheck], close[lblcheck]*1.05, color=color.yellow, text=
+//  "Last signal is LONG: " + tostring(lastsignalislong) + " /// " + "Last signal is SHORT: " + tostring(lastsignalisshort), style=label.style_label_down)
+// if barstate.isrealtime
+//     lab1
+// label.delete(lab1[1])
+// lab2 = label.new(bar_index[lblcheck], close[lblcheck]*.95, color=color.yellow, text=newtrade[lblcheck] ? "NEW TRADE" : na, style=label.style_label_up)
+// if barstate.isrealtime
+//     lab2
+// label.delete(lab2[1])
+
+
+////// Plots //////
+
+// // Signals count
+// plot(longsignalcount, color=color.green)
+// plot(shortsignalcount, color=color.red)
+
+// // Trade Exits count
+// plot(longexitcount, color=color.yellow)
+// plot(shortexitcount, color=color.orange)
+
+// // Others
+// plot(sma(source, 500), color=color.fuchsia)
+// plot(strategy.position_size, title="Position_size check")

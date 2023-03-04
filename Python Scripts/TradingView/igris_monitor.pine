@@ -1,0 +1,35 @@
+//@version=4
+study('Igris Monitor')
+
+
+fast = input(12, type=input.integer, title="Fast")
+source = input(close, type=input.source, title="Source")
+slow = input(26, type=input.integer, title="Slow")
+signal = input(9, type=input.integer, title="Signal")
+rate = input(5, type=input.integer, title="Rate")
+confluence_level = input(title="Confluence Level", type=input.integer, defval=2, minval=2, maxval=4)
+
+// Plot colors
+col_grow_above = #10ed19
+col_grow_below = #ffffff
+col_fall_above = #ffffff
+col_fall_below = #db1c1c
+
+
+// Confluence Zones
+[macd_line1, signal_line1, hist_line1] = macd(source, fast, slow, signal)
+[macd_line2, signal_line2, hist_line2] = macd(source, fast*rate, slow*rate, signal*rate)
+hist = hist_line2 + hist_line1
+
+
+if confluence_level >=3
+    [macd_line3, signal_line3, hist_line3] = macd(source, fast*rate*rate, slow*rate*rate, signal*rate*rate)
+    hist := hist_line3 + hist
+    
+
+if confluence_level >= 4
+    [macd_line4, signal_line4, hist_line4] = macd(source, fast*rate*rate*rate, slow*rate*rate*rate, signal*rate*rate*rate)
+    hist := hist_line4 + hist
+    
+
+plot(hist, title="Histogram", style=plot.style_area, color=(hist>=0 ? (hist[1] < hist ? col_grow_above : col_fall_above) : (hist[1] < hist ? col_grow_below : col_fall_below) ), transp=0 )

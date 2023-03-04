@@ -1,0 +1,1349 @@
+1668085837357	geckodriver	INFO	Listening on 127.0.0.1:1049
+1668085840444	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "1050" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofileUXOJis"
+1668085845434	Marionette	INFO	Marionette enabled
+1668085845449	Marionette	INFO	Listening on port 1078
+Read port: 1078
+WebDriver BiDi listening on ws://127.0.0.1:1050
+Read port: 1078
+1668085847656	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofileUXOJis\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:1050/devtools/browser/94368fbf-52d4-4f8b-9bec-979c4a061df2
+1668085945245	Marionette	INFO	Stopped listening on port 1078
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668085947216	geckodriver	INFO	Listening on 127.0.0.1:1033
+1668085950266	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "1034" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofileanrNZp"
+1668085951276	Marionette	INFO	Marionette enabled
+1668085951282	Marionette	INFO	Listening on port 1050
+Read port: 1050
+WebDriver BiDi listening on ws://127.0.0.1:1034
+1668085951467	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofileanrNZp\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:1034/devtools/browser/f3321a7a-c620-440e-a049-8d6c7f9cfb20
+1668085963569	Marionette	INFO	Stopped listening on port 1050
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668086588996	geckodriver	INFO	Listening on 127.0.0.1:1053
+1668086592039	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "1055" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofileqtPCPP"
+1668086592483	Marionette	INFO	Marionette enabled
+1668086592489	Marionette	INFO	Listening on port 1072
+Read port: 1072
+WebDriver BiDi listening on ws://127.0.0.1:1055
+1668086592678	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofileqtPCPP\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:1055/devtools/browser/3ab35ee0-b281-4441-b02c-68727658b2b8
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, 1668086808710	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "14629" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofileAgq3je"
+1668086809179	Marionette	INFO	Marionette enabled
+1668086809185	Marionette	INFO	Listening on port 14643
+Read port: 14643
+WebDriver BiDi listening on ws://127.0.0.1:14629
+1668086809379	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofileAgq3je\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:14629/devtools/browser/b52b9a6c-0383-4d8e-82bd-7616943f560d
+1668087762121	geckodriver	INFO	Listening on 127.0.0.1:1054
+1668087765162	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "1055" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofilewjlye4"
+1668087765692	Marionette	INFO	Marionette enabled
+1668087765699	Marionette	INFO	Listening on port 1076
+Read port: 1076
+WebDriver BiDi listening on ws://127.0.0.1:1055
+1668087765898	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 420))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofilewjlye4\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:1055/devtools/browser/2ff8422f-d5c8-4767-ac98-18ef0a2b35f0
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1668088535054	Marionette	INFO	Stopped listening on port 1076
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "3310" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofileGyAjGS"
+1668088530715	Marionette	INFO	Marionette enabled
+1668088530722	Marionette	INFO	Listening on port 3321
+Read port: 3321
+WebDriver BiDi listening on ws://127.0.0.1:3310
+1668088530941	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofileGyAjGS\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:3310/devtools/browser/38fd1a37-8608-43ac-9ab1-9395029d88fe
+1668088550685	Marionette	INFO	Stopped listening on port 3321
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 693: TypeError: this.tablesData[table] is undefined
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+!!! error running onStopped callback: TypeError: callback is not a function
+1668088553159	geckodriver	INFO	Listening on 127.0.0.1:3403
+1668088556188	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "3404" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofileLV60va"
+1668088556663	Marionette	INFO	Marionette enabled
+1668088556670	Marionette	INFO	Listening on port 3415
+Read port: 3415
+WebDriver BiDi listening on ws://127.0.0.1:3404
+1668088556861	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofileLV60va\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:3404/devtools/browser/93ff64a6-c8a9-421e-bfda-e0ac44c51f9f
+1668088566726	Marionette	INFO	Stopped listening on port 3415
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668088757319	geckodriver	INFO	Listening on 127.0.0.1:1026
+1668088760376	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "1027" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofilekD3DFk"
+1668088760918	Marionette	INFO	Marionette enabled
+1668088760925	Marionette	INFO	Listening on port 1039
+Read port: 1039
+WebDriver BiDi listening on ws://127.0.0.1:1027
+1668088761157	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofilekD3DFk\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:1027/devtools/browser/0cb0ad61-28eb-48a4-99e1-72aad88f5d65
+1668088783143	Marionette	INFO	Stopped listening on port 1039
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 6824, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1668088949835	geckodriver	INFO	Listening on 127.0.0.1:23254
+1668088952875	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "23255" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofileAz7kkG"
+1668088953357	Marionette	INFO	Marionette enabled
+1668088953364	Marionette	INFO	Listening on port 23266
+Read port: 23266
+WebDriver BiDi listening on ws://127.0.0.1:23255
+1668088953567	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofileAz7kkG\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:23255/devtools/browser/824876c3-4eab-4c32-8850-dd6bbd7087b3
+1668088967532	Marionette	INFO	Stopped listening on port 23266
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668089379635	geckodriver	INFO	Listening on 127.0.0.1:1040
+1668089382672	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "1041" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofilemH8Ma1"
+1668089383128	Marionette	INFO	Marionette enabled
+1668089383135	Marionette	INFO	Listening on port 1055
+Read port: 1055
+WebDriver BiDi listening on ws://127.0.0.1:1041
+1668089383331	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofilemH8Ma1\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:1041/devtools/browser/a457cd09-853f-421d-809a-9ec6615de47f
+1668089430979	Marionette	INFO	Stopped listening on port 1055
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668089705218	geckodriver	INFO	Listening on 127.0.0.1:1050
+1668089708251	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "1052" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofileRJwkVr"
+1668089708719	Marionette	INFO	Marionette enabled
+1668089708725	Marionette	INFO	Listening on port 1068
+Read port: 1068
+WebDriver BiDi listening on ws://127.0.0.1:1052
+1668089708915	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofileRJwkVr\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:1052/devtools/browser/82a0507f-3528-4c24-80d1-02c5f57275dc
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/common.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/common.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/common.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/elegant/fresh.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/common.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/common.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/common.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/common.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/common.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/common.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/common.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/common.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/elegant/fresh.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/elegant/fresh.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/common.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/elegant/fresh.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/common.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/elegant/style.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/elegant/fresh.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/elegant/fresh.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/elegant/fresh.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/common.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/elegant/style.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/elegant/fresh.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/elegant/fresh.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/common.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/common.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/common.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/common.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/common.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/common.css, using system principal instead."
+SourceActor threw an exception: Error: Failed to fetch https://10.10.0.1/lang_pack/english.js. Code 2153398258.
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:582:16
+onStopRequest@resource://gre/modules/NetUtil.jsm:126:18
+Line: 582, column: 16
+console.error: (new Error("Failed to fetch https://10.10.0.1/lang_pack/english.js. Code 2153398258.", "resource://devtools/shared/DevToolsUtils.js", 582))
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 582: Error: Failed to fetch https://10.10.0.1/lang_pack/english.js. Code 2153398258.
+SourceActor threw an exception: Error: Failed to fetch https://10.10.0.1/lang_pack/language.js. Code 2153398258.
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:582:16
+onStopRequest@resource://gre/modules/NetUtil.jsm:126:18
+Line: 582, column: 16
+console.error: (new Error("Failed to fetch https://10.10.0.1/lang_pack/language.js. Code 2153398258.", "resource://devtools/shared/DevToolsUtils.js", 582))
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 582: Error: Failed to fetch https://10.10.0.1/lang_pack/language.js. Code 2153398258.
+SourceActor threw an exception: Error: Failed to fetch https://10.10.0.1/Management.asp. Code 2153398258.
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:582:16
+onStopRequest@resource://gre/modules/NetUtil.jsm:126:18
+Line: 582, column: 16
+console.error: (new Error("Failed to fetch https://10.10.0.1/Management.asp. Code 2153398258.", "resource://devtools/shared/DevToolsUtils.js", 582))
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 582: Error: Failed to fetch https://10.10.0.1/Management.asp. Code 2153398258.
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/elegant/fresh.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/common.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/common.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/elegant/fresh.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/elegant/fresh.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/elegant/style.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/elegant/fresh.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/common.css, using system principal instead."
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1668091142470	Marionette	INFO	Stopped listening on port 1068
+[Parent 1368, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1668091504796	geckodriver	INFO	Listening on 127.0.0.1:15453
+1668091507830	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "15454" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofilei5LWn7"
+1668091508337	Marionette	INFO	Marionette enabled
+1668091508343	Marionette	INFO	Listening on port 15463
+Read port: 15463
+WebDriver BiDi listening on ws://127.0.0.1:15454
+1668091508544	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofilei5LWn7\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:15454/devtools/browser/06a16861-694b-4598-bc8e-db0addbdd3da
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/common.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/common.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/common.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/elegant/fresh.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/common.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/common.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/common.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/common.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/common.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/common.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/common.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/common.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/common.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/elegant/fresh.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/elegant/fresh.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/common.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/common.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/elegant/fresh.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/common.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/common.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/elegant/style.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/elegant/fresh.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/elegant/fresh.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/elegant/fresh.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/common.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/elegant/style.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/elegant/fresh.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/elegant/fresh.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/common.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/common.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/common.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/common.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/common.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/common.css, using system principal instead."
+SourceActor threw an exception: Error: Failed to fetch https://10.10.0.1/lang_pack/english.js. Code 2153398258.
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:582:16
+onStopRequest@resource://gre/modules/NetUtil.jsm:126:18
+Line: 582, column: 16
+console.error: (new Error("Failed to fetch https://10.10.0.1/lang_pack/english.js. Code 2153398258.", "resource://devtools/shared/DevToolsUtils.js", 582))
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 582: Error: Failed to fetch https://10.10.0.1/lang_pack/english.js. Code 2153398258.
+SourceActor threw an exception: Error: Failed to fetch https://10.10.0.1/lang_pack/language.js. Code 2153398258.
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:582:16
+onStopRequest@resource://gre/modules/NetUtil.jsm:126:18
+Line: 582, column: 16
+console.error: (new Error("Failed to fetch https://10.10.0.1/lang_pack/language.js. Code 2153398258.", "resource://devtools/shared/DevToolsUtils.js", 582))
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 582: Error: Failed to fetch https://10.10.0.1/lang_pack/language.js. Code 2153398258.
+SourceActor threw an exception: Error: Failed to fetch https://10.10.0.1/Management.asp. Code 2153398258.
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:582:16
+onStopRequest@resource://gre/modules/NetUtil.jsm:126:18
+Line: 582, column: 16
+console.error: (new Error("Failed to fetch https://10.10.0.1/Management.asp. Code 2153398258.", "resource://devtools/shared/DevToolsUtils.js", 582))
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 582: Error: Failed to fetch https://10.10.0.1/Management.asp. Code 2153398258.
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/elegant/fresh.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/common.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/common.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/elegant/fresh.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/elegant/fresh.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/elegant/style.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/elegant/fresh.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://10.10.0.1/style/common.css, using system principal instead."
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1668091711067	Marionette	INFO	Stopped listening on port 15463
+[Parent 9536, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1668091714240	geckodriver	INFO	Listening on 127.0.0.1:32180
+1668091717360	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "32181" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofileloRHUu"
+1668091717837	Marionette	INFO	Marionette enabled
+1668091717844	Marionette	INFO	Listening on port 32193
+Read port: 32193
+WebDriver BiDi listening on ws://127.0.0.1:32181
+1668091718044	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofileloRHUu\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:32181/devtools/browser/94d87a37-607b-415f-97a6-5c6d05dd6b02
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://10.10.0.1."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://10.10.0.1."
+1668091743085	Marionette	INFO	Stopped listening on port 32193
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668092513334	geckodriver	INFO	Listening on 127.0.0.1:28498
+1668092516372	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "28499" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofileFdr3uc"
+1668092516943	Marionette	INFO	Marionette enabled
+1668092516950	Marionette	INFO	Listening on port 28529
+Read port: 28529
+WebDriver BiDi listening on ws://127.0.0.1:28499
+1668092517149	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofileFdr3uc\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:28499/devtools/browser/ed59750a-d5cf-44ca-8df2-eb6a8fe9bf07
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1668094352012	Marionette	INFO	Stopped listening on port 28529
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 11664, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1668096141409	geckodriver	INFO	Listening on 127.0.0.1:1051
+1668096144454	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "1052" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofileszyNra"
+1668096144925	Marionette	INFO	Marionette enabled
+1668096144931	Marionette	INFO	Listening on port 1078
+Read port: 1078
+WebDriver BiDi listening on ws://127.0.0.1:1052
+1668096145128	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 420))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofileszyNra\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:1052/devtools/browser/544096e7-c816-4e6f-a837-675ec6a69399
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://10.10.0.1."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://10.10.0.1."
+1668096162598	Marionette	INFO	Stopped listening on port 1078
+[Parent 9892, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1668096455597	geckodriver	INFO	Listening on 127.0.0.1:24034
+1668096458644	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "24035" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofiled60768"
+1668096459091	Marionette	INFO	Marionette enabled
+1668096459098	Marionette	INFO	Listening on port 24058
+Read port: 24058
+WebDriver BiDi listening on ws://127.0.0.1:24035
+1668096459295	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 420))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofiled60768\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:24035/devtools/browser/fe47b2c0-89dc-4ecb-8647-6f219120c56b
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://10.10.0.1."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://10.10.0.1."
+JavaScript error: https://10.10.0.1/Management.asp, line 22: TypeError: update is undefined
+1668096517610	Marionette	INFO	Stopped listening on port 24058
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1668096530361	geckodriver	INFO	Listening on 127.0.0.1:15500
+1668096533402	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "15501" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofileAA2AGZ"
+1668096533848	Marionette	INFO	Marionette enabled
+1668096533855	Marionette	INFO	Listening on port 15524
+Read port: 15524
+WebDriver BiDi listening on ws://127.0.0.1:15501
+1668096534050	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 420))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofileAA2AGZ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:15501/devtools/browser/73103b60-89e8-4cd6-8d03-f101dca0f7b6
+1668096546768	geckodriver	INFO	Listening on 127.0.0.1:15570
+1668096549816	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "15571" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofileAmZbze"
+1668096550307	Marionette	INFO	Marionette enabled
+1668096550316	Marionette	INFO	Listening on port 15600
+Read port: 15600
+WebDriver BiDi listening on ws://127.0.0.1:15571
+1668096550513	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 420))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofileAmZbze\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:15571/devtools/browser/cf1fae5d-74c0-4649-b8e3-f56fe36f3c29
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://10.10.0.1."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://10.10.0.1."
+JavaScript error: https://10.10.0.1/Management.asp, line 22: TypeError: update is undefined
+1668096563896	Marionette	INFO	Stopped listening on port 15600
+1671025472305	geckodriver	INFO	Listening on 127.0.0.1:28300
+1671025475343	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "28301" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofileMbYh85"
+1671025476284	Marionette	INFO	Marionette enabled
+1671025476300	Marionette	INFO	Listening on port 28317
+Read port: 28317
+WebDriver BiDi listening on ws://127.0.0.1:28301
+1671025476888	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofileMbYh85\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:28301/devtools/browser/0f5b533c-80a5-4e2a-8e76-a787465e696c
+1671025499253	Marionette	INFO	Stopped listening on port 28317
+[Parent 1764, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1671025607327	geckodriver	INFO	Listening on 127.0.0.1:28534
+1671025610367	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "28535" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofilevAcjIr"
+1671025610822	Marionette	INFO	Marionette enabled
+1671025610828	Marionette	INFO	Listening on port 28551
+Read port: 28551
+WebDriver BiDi listening on ws://127.0.0.1:28535
+1671025611027	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofilevAcjIr\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:28535/devtools/browser/5b7e595d-4a33-4b7b-9c4b-3bbfe2d28d87
+1671025629166	Marionette	INFO	Stopped listening on port 28551
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1671025711349	geckodriver	INFO	Listening on 127.0.0.1:28747
+1671025714402	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "28748" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofileiPZwL3"
+1671025714936	Marionette	INFO	Marionette enabled
+1671025714943	Marionette	INFO	Listening on port 28763
+Read port: 28763
+WebDriver BiDi listening on ws://127.0.0.1:28748
+1671025715136	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofileiPZwL3\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:28748/devtools/browser/4a1ca5a4-f1fc-440f-9075-f109ef1f8720
+1671025731253	Marionette	INFO	Stopped listening on port 28763
+!!! error running onStopped callback: TypeError: callback is not a function
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+[Parent 12968, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1671025806101	geckodriver	INFO	Listening on 127.0.0.1:28938
+1671025809147	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "28939" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofileV4G4CO"
+1671025809607	Marionette	INFO	Marionette enabled
+1671025809614	Marionette	INFO	Listening on port 28954
+Read port: 28954
+WebDriver BiDi listening on ws://127.0.0.1:28939
+1671025809796	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofileV4G4CO\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:28939/devtools/browser/656b0b34-bc6f-44c3-a717-2157164d1d85
+1671025827393	Marionette	INFO	Stopped listening on port 28954
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1671025835566	geckodriver	INFO	Listening on 127.0.0.1:29052
+1671025838625	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "29053" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofileOlO5hh"
+1671025839081	Marionette	INFO	Marionette enabled
+1671025839088	Marionette	INFO	Listening on port 29064
+Read port: 29064
+WebDriver BiDi listening on ws://127.0.0.1:29053
+1671025839266	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofileOlO5hh\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:29053/devtools/browser/ddeecafe-5519-45d1-b935-3a82c97daf6f
+1671025856184	Marionette	INFO	Stopped listening on port 29064
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1671025877697	geckodriver	INFO	Listening on 127.0.0.1:29166
+1671025880751	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "29167" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofileIXlfv9"
+1671025881222	Marionette	INFO	Marionette enabled
+1671025881228	Marionette	INFO	Listening on port 29183
+Read port: 29183
+WebDriver BiDi listening on ws://127.0.0.1:29167
+1671025881411	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofileIXlfv9\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:29167/devtools/browser/b2606a06-fd15-4494-828d-d03902aafe91
+1671025897960	Marionette	INFO	Stopped listening on port 29183
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1671025907013	geckodriver	INFO	Listening on 127.0.0.1:29281
+1671025910050	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "29282" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofileurlhcb"
+1671025910879	Marionette	INFO	Marionette enabled
+1671025910886	Marionette	INFO	Listening on port 29297
+Read port: 29297
+WebDriver BiDi listening on ws://127.0.0.1:29282
+1671025911225	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofileurlhcb\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:29282/devtools/browser/2fb169b5-a6d8-462e-9117-25226c24e8a7
+1671025926261	Marionette	INFO	Stopped listening on port 29297
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+!!! error running onStopped callback: TypeError: callback is not a function
+1671025937316	geckodriver	INFO	Listening on 127.0.0.1:29397
+1671025940366	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "29398" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofile1znS11"
+1671025940856	Marionette	INFO	Marionette enabled
+1671025940862	Marionette	INFO	Listening on port 29414
+Read port: 29414
+WebDriver BiDi listening on ws://127.0.0.1:29398
+1671025941041	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofile1znS11\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:29398/devtools/browser/b97bbff8-1b05-4240-86e1-93c48e79a0ed
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 3716 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1671026022629	Marionette	INFO	Stopped listening on port 29414
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+nette	INFO	Marionette enabled
+1671025962887	Marionette	INFO	Listening on port 29514
+Read port: 29514
+WebDriver BiDi listening on ws://127.0.0.1:29501
+1671025963070	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofilecMbgrZ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:29501/devtools/browser/ecdbf761-02aa-42f6-89fa-065d6fc059a7
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 4336 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1671026028581	Marionette	INFO	Stopped listening on port 29514
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1671026087037	geckodriver	INFO	Listening on 127.0.0.1:29763
+1671026090087	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "29764" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofilejp3wTc"
+1671026090574	Marionette	INFO	Marionette enabled
+1671026090581	Marionette	INFO	Listening on port 29779
+Read port: 29779
+WebDriver BiDi listening on ws://127.0.0.1:29764
+1671026090772	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofilejp3wTc\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:29764/devtools/browser/116d58f0-8187-4bf3-829b-d13ae0422522
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.dateas.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.dateas.com."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 6802 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: undefined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.dateas.com."
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 571 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.dateas.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.dateas.com."
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 5494 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1671026283220	Marionette	INFO	Stopped listening on port 29779
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1671027975821	geckodriver	INFO	Listening on 127.0.0.1:3339
+1671027978865	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "3340" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofile5V1XAi"
+1671027979360	Marionette	INFO	Marionette enabled
+1671027979367	Marionette	INFO	Listening on port 3354
+Read port: 3354
+WebDriver BiDi listening on ws://127.0.0.1:3340
+1671027979566	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofile5V1XAi\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:3340/devtools/browser/698b3699-e3d9-4ba4-8850-c032b5c0ef02
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.dateas.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.dateas.com."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 5572 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1671028060433	Marionette	INFO	Stopped listening on port 3354
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1671028587359	geckodriver	INFO	Listening on 127.0.0.1:24688
+1671028590411	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "24689" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofileK6OiVd"
+1671028590900	Marionette	INFO	Marionette enabled
+1671028590907	Marionette	INFO	Listening on port 24704
+Read port: 24704
+WebDriver BiDi listening on ws://127.0.0.1:24689
+1671028591094	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofileK6OiVd\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:24689/devtools/browser/e125f46f-88bd-4a46-9483-f6da68bab0be
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.dateas.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.dateas.com."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 4825 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1671028789039	Marionette	INFO	Stopped listening on port 24704
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+ad port: 25042
+WebDriver BiDi listening on ws://127.0.0.1:25028
+1671028728013	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofileM5xRpu\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:25028/devtools/browser/b0c6f6b6-51e5-40a8-ae48-302d26c2585f
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.dateas.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.dateas.com."
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 4165 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1671028753048	Marionette	INFO	Stopped listening on port 25042
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1671028786467	geckodriver	INFO	Listening on 127.0.0.1:25286
+1671028789534	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "25287" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofilewl26bI"
+1671028790004	Marionette	INFO	Marionette enabled
+1671028790011	Marionette	INFO	Listening on port 25307
+Read port: 25307
+WebDriver BiDi listening on ws://127.0.0.1:25287
+1671028790202	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofilewl26bI\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:25287/devtools/browser/2d3bdd40-93d2-440e-9152-b8e4703f27d8
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.dateas.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.dateas.com."
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 3090 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1671028831166	Marionette	INFO	Stopped listening on port 25307
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1671028833292	geckodriver	INFO	Listening on 127.0.0.1:25497
+1671028836344	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "25498" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofile4TU31w"
+1671028836811	Marionette	INFO	Marionette enabled
+1671028836818	Marionette	INFO	Listening on port 25514
+Read port: 25514
+WebDriver BiDi listening on ws://127.0.0.1:25498
+1671028837005	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofile4TU31w\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:25498/devtools/browser/b39906de-031b-4755-89b7-23271ee1d805
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 763))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 415))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.dateas.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.dateas.com."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 3436 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: uncaught exception: undefined
+1671029651751	Marionette	INFO	Stopped listening on port 25514
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 13712, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+/devtools/browser/628795ea-6d0a-43b3-9410-cfd713ed0718
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 6429 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.dateas.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.dateas.com."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1671029041507	Marionette	INFO	Stopped listening on port 1328
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+[Parent 13308, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1671029057740	geckodriver	INFO	Listening on 127.0.0.1:1486
+1671029060814	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "1487" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofilerQpSvr"
+1671029061268	Marionette	INFO	Marionette enabled
+1671029061275	Marionette	INFO	Listening on port 1502
+Read port: 1502
+WebDriver BiDi listening on ws://127.0.0.1:1487
+1671029061454	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofilerQpSvr\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:1487/devtools/browser/91bc529f-f379-4e7b-84de-fd9a6825a807
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.dateas.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.dateas.com."
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1671029081820	Marionette	INFO	Stopped listening on port 1502
+[Parent 7124, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+[Parent 7124, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1671029104214	geckodriver	INFO	Listening on 127.0.0.1:13185
+1671029107284	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "13186" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofileoMnFLO"
+1671029107773	Marionette	INFO	Marionette enabled
+1671029107780	Marionette	INFO	Listening on port 13202
+Read port: 13202
+WebDriver BiDi listening on ws://127.0.0.1:13186
+1671029107970	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofileoMnFLO\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:13186/devtools/browser/eb26ea91-40ae-4a79-a81b-db08807ad528
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.dateas.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.dateas.com."
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 957 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1671029354296	Marionette	INFO	Stopped listening on port 13202
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 3928, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1671029358426	geckodriver	INFO	Listening on 127.0.0.1:13632
+1671029361455	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "13633" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofilexFbnm6"
+1671029361941	Marionette	INFO	Marionette enabled
+1671029361947	Marionette	INFO	Listening on port 13647
+Read port: 13647
+WebDriver BiDi listening on ws://127.0.0.1:13633
+1671029362133	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofilexFbnm6\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:13633/devtools/browser/4f05f8e1-6e9b-40f4-ae7e-48a3fb6bfeff
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.dateas.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.dateas.com."
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1671029397396	Marionette	INFO	Stopped listening on port 13647
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+[Parent 14532, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1671029655591	geckodriver	INFO	Listening on 127.0.0.1:25029
+1671029658653	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "25030" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofilegCt4RQ"
+1671029659128	Marionette	INFO	Marionette enabled
+1671029659135	Marionette	INFO	Listening on port 25046
+Read port: 25046
+WebDriver BiDi listening on ws://127.0.0.1:25030
+1671029659325	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofilegCt4RQ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:25030/devtools/browser/ec60e6c2-31c9-4eb0-96ef-b11a849a21bb
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.dateas.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.dateas.com."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 6655 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/z7cUAtzL1u1d_2AGWF4wFgnTveRSMJLcB1xcawACHJQ.js line 2 > eval line 5414 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1671029702607	Marionette	INFO	Stopped listening on port 25046
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+[Parent 14848, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 14848, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:559
+1673443258082	geckodriver	INFO	Listening on 127.0.0.1:1064
+1673443261604	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "1065" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofile3iV43h"
+1673443265193	Marionette	INFO	Marionette enabled
+1673443265240	Marionette	INFO	Listening on port 1111
+Read port: 1111
+Read port: 1111
+WebDriver BiDi listening on ws://127.0.0.1:1065
+1673443267447	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 764))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 416))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofile3iV43h\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:1065/devtools/browser/fff6c1a2-b66c-4bb4-b034-94002d40b01c
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+1673443344600	Marionette	INFO	Stopped listening on port 1111
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1673443351150	geckodriver	INFO	Listening on 127.0.0.1:1039
+1673443354186	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "1040" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofileIweDp6"
+1673443354683	Marionette	INFO	Marionette enabled
+1673443354690	Marionette	INFO	Listening on port 1054
+Read port: 1054
+WebDriver BiDi listening on ws://127.0.0.1:1040
+1673443354897	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofileIweDp6\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:1040/devtools/browser/1880e5c4-394c-49c1-91c8-1ac81469b64f
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://10.10.0.1."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://10.10.0.1."
+1673443363087	Marionette	INFO	Stopped listening on port 1054
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+sendPing@resource://gre/modules/EventPing.jsm:51:30
+_submitPing@resource://gre/modules/EventPing.jsm:229:12
+shutdown@resource://gre/modules/EventPing.jsm:112:10
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
+shutdown/<@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1014:36
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:1687:7
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:369:30
+_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
+setupTelemetry/<@resource://gre/modules/TelemetryControllerParent.jsm:917:18
+safeGetState@resource://gre/modules/AsyncShutdown.jsm:242:17
+Barrier/addBlocker/promise<@resource://gre/modules/AsyncShutdown.jsm:751:20
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1673966971297	geckodriver	INFO	Listening on 127.0.0.1:52648
+1673966974036	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52649" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofileomEVU2"
+1673966980399	Marionette	INFO	Marionette enabled
+1673966980451	Marionette	INFO	Listening on port 52662
+Read port: 52662
+Read port: 52662
+WebDriver BiDi listening on ws://127.0.0.1:52649
+Read port: 52662
+1673966983369	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofileomEVU2\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52649/devtools/browser/04d87478-322c-43cc-9a3e-fc3dcc8a41d5
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://10.10.0.1."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://10.10.0.1."
+JavaScript error: http://10.10.0.1/Management.asp, line 22: TypeError: update is undefined
+1673967006282	Marionette	INFO	Stopped listening on port 52662
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+sendPing@resource://gre/modules/EventPing.jsm:51:30
+_submitPing@resource://gre/modules/EventPing.jsm:229:12
+shutdown@resource://gre/modules/EventPing.jsm:112:10
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
+shutdown/<@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1014:36
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:1687:7
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:369:30
+_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
+setupTelemetry/<@resource://gre/modules/TelemetryControllerParent.jsm:917:18
+safeGetState@resource://gre/modules/AsyncShutdown.jsm:242:17
+Barrier/addBlocker/promise<@resource://gre/modules/AsyncShutdown.jsm:751:20
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1674661581749	geckodriver	INFO	Listening on 127.0.0.1:2140
+1674661584764	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "2141" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofileA93XDk"
+1674661585600	Marionette	INFO	Marionette enabled
+1674661585614	Marionette	INFO	Listening on port 2156
+Read port: 2156
+WebDriver BiDi listening on ws://127.0.0.1:2141
+1674661586244	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofileA93XDk\\search.json.mozlz4", (void 0)))
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 764))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 416))
+DevTools listening on ws://127.0.0.1:2141/devtools/browser/4f752d34-5986-430c-aae7-545e7f1df723
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1674661696824	Marionette	INFO	Stopped listening on port 2156
+e-debugging-port" "2257" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofile2NVgbY"
+1674661684999	Marionette	INFO	Marionette enabled
+1674661685006	Marionette	INFO	Listening on port 2270
+Read port: 2270
+WebDriver BiDi listening on ws://127.0.0.1:2257
+1674661685187	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofile2NVgbY\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:2257/devtools/browser/419b778a-034f-401d-a10c-2da6e2ad2442
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1674661773594	Marionette	INFO	Stopped listening on port 2270
+1674661776096	geckodriver	INFO	Listening on 127.0.0.1:2382
+1674661779145	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "2383" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofile6AZ7i0"
+1674661779605	Marionette	INFO	Marionette enabled
+1674661779612	Marionette	INFO	Listening on port 2394
+Read port: 2394
+WebDriver BiDi listening on ws://127.0.0.1:2383
+1674661779789	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofile6AZ7i0\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:2383/devtools/browser/60c49efc-c7a8-4c53-90f3-aff00b65f24e
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://10.10.0.1."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://10.10.0.1."
+1674661784763	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: http://10.10.0.1/Management.asp, line 24: TypeError: update is undefined
+1674661788090	Marionette	INFO	Stopped listening on port 2394
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+sendPing@resource://gre/modules/EventPing.jsm:51:30
+_submitPing@resource://gre/modules/EventPing.jsm:229:12
+shutdown@resource://gre/modules/EventPing.jsm:112:10
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
+shutdown/<@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1014:36
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:1687:7
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:369:30
+_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
+setupTelemetry/<@resource://gre/modules/TelemetryControllerParent.jsm:917:18
+safeGetState@resource://gre/modules/AsyncShutdown.jsm:242:17
+Barrier/addBlocker/promise<@resource://gre/modules/AsyncShutdown.jsm:751:20
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1675261085267	geckodriver	INFO	Listening on 127.0.0.1:2819
+1675261088263	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "2820" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofileN5WOH5"
+1675261091204	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675261091254	Marionette	INFO	Listening on port 2831
+Read port: 2831
+WebDriver BiDi listening on ws://127.0.0.1:2820
+1675261092312	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofileN5WOH5\\search.json.mozlz4", (void 0)))
+console.error: Region.sys.mjs: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 762))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 416))
+DevTools listening on ws://127.0.0.1:2820/devtools/browser/c98b1834-916f-45d9-8fa0-a6830d643900
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://10.10.0.1."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://10.10.0.1."
+JavaScript error: http://10.10.0.1/Management.asp, line 24: TypeError: update is undefined
+1675261108875	Marionette	INFO	Stopped listening on port 2831
+Dynamically enable window occlusion 1
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+sendPing@resource://gre/modules/EventPing.jsm:51:30
+_submitPing@resource://gre/modules/EventPing.jsm:229:12
+shutdown@resource://gre/modules/EventPing.jsm:112:10
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
+shutdown/<@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1014:36
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:1692:7
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:374:30
+_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
+setupTelemetry/<@resource://gre/modules/TelemetryControllerParent.jsm:917:18
+safeGetState@resource://gre/modules/AsyncShutdown.jsm:254:17
+Barrier/_internalAddBlocker/promise<@resource://gre/modules/AsyncShutdown.jsm:773:20
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1675261425624	geckodriver	INFO	Listening on 127.0.0.1:3486
+1675261428690	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "3487" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofileIxNJAH"
+1675261429133	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675261429139	Marionette	INFO	Listening on port 3497
+Read port: 3497
+WebDriver BiDi listening on ws://127.0.0.1:3487
+1675261429369	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.sys.mjs: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 416))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Inventor\\AppData\\Local\\Temp\\rust_mozprofileIxNJAH\\search.json.mozlz4", (void 0)))
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.jsm", 230))
+DevTools listening on ws://127.0.0.1:3487/devtools/browser/c1272361-2c1c-4c15-a94d-795357a6e2da
+1675261457247	Marionette	INFO	Stopped listening on port 3497
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+sendPing@resource://gre/modules/EventPing.jsm:51:30
+_submitPing@resource://gre/modules/EventPing.jsm:229:12
+shutdown@resource://gre/modules/EventPing.jsm:112:10
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
+shutdown/<@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1014:36
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:1692:7
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:374:30
+_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
+setupTelemetry/<@resource://gre/modules/TelemetryControllerParent.jsm:917:18
+safeGetState@resource://gre/modules/AsyncShutdown.jsm:254:17
+Barrier/_internalAddBlocker/promise<@resource://gre/modules/AsyncShutdown.jsm:773:20
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
