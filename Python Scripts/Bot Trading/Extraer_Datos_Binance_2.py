@@ -44,7 +44,7 @@ for interval_str in tick_interval:
         df['Close_Timestamp'] = pd.to_datetime(df['Close_Time'], unit = 'ms')
 
         # Se guardan los datos en un archivo csv
-        df.to_csv(f'{symbol_str}_{interval_str}.csv', index = False, header = True, quoting = csv.QUOTE_ALL)
+        df.to_csv(f'Scripts/Python Scripts/{symbol_str}_{interval_str}.csv', index = False, header = True, quoting = csv.QUOTE_ALL)
 
         tqdm.write(f'Descargado y Grabado los datos de {symbol_str}_{interval_str}')
 
