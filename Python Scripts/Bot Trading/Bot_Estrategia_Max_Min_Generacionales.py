@@ -4,12 +4,12 @@ import matplotlib.pyplot as plt
 import mplfinance as mpf
 from colorama import init, Back
 
-plt.style.use('seaborn-darkgrid')
+plt.style.use('seaborn-v0_8-whitegrid')
 
 # use Colorama to make Termcolor work on Windows too
 init(autoreset=True)
 
-datos = pd.read_csv('BTCUSDT_1d.csv', sep = ",")
+datos = pd.read_csv('Scripts/Python Scripts/BTCUSDT_1d.csv', sep = ",")
 datos['Close_Timestamp'] = pd.to_datetime(datos['Close_Timestamp'], format='%Y-%m-%d')
 datos = datos[['Close_Timestamp', 'Open', 'High',  'Low', 'Close', 'Volume']].copy()
 datos.set_index('Close_Timestamp', inplace = True)

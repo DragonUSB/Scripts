@@ -6,14 +6,14 @@ import mplfinance as mpf
 import matplotlib.pyplot as plt
 from colorama import init, Back
 
-plt.style.use('seaborn-darkgrid')
+plt.style.use('seaborn-v0_8-whitegrid')
 
 # use Colorama to make Termcolor work on Windows too
 init(autoreset=True)
 
 #%matplotlib inline
 
-datos = pd.read_csv('ETHUSDT_1d.csv', sep=",")
+datos = pd.read_csv('Scripts/Python Scripts/ETHUSDT_1d.csv', sep=",")
 datos['Close_Timestamp'] = pd.to_datetime(datos['Close_Timestamp'], format='%Y-%m-%d')
 datos.set_index('Close_Timestamp', inplace = True)
 datos.columns

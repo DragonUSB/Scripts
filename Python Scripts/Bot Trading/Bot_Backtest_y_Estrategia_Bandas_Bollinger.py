@@ -3,12 +3,15 @@ import numpy as np
 import matplotlib.pyplot as plt
 from colorama import init, Back
 
-plt.style.use('seaborn-darkgrid')
+plt.style.use('seaborn-v0_8-whitegrid')
 
 # use Colorama to make Termcolor work on Windows too
 init(autoreset=True)
 
-df_raw = pd.read_csv('ETHUSDT_1d.csv')
+f_tick = input('Coloque la criptomeneda que se va analizar: ')
+tick = 'USDT'
+
+df_raw = pd.read_csv('Scripts/Python Scripts/' + f_tick + tick + '_1d.csv')
 
 # Limpiando y dar formato
 df = df_raw[['Close_Timestamp', 'Close']].copy()
@@ -79,8 +82,6 @@ plt.show()
 
 # Valores iniciales de la estrategia
 backtest = []
-f_tick = 'UNI'
-tick = 'USDT'
 initial_cash_inv = 10
 initial_cash = initial_cash_inv
 initial_position = 0

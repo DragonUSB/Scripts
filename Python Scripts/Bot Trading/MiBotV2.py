@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import mplfinance as mpf
 from colorama import init, Back
 
-plt.style.use('seaborn-v0_8-whitegrid')
+plt.style.use('seaborn-v0_8-darkgrid')
 
 # use Colorama to make Termcolor work on Windows too
 init(autoreset=True)
