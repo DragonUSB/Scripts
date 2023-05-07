@@ -8,12 +8,14 @@ d2 = float(input("Colocar el diametro exterior de la fresa de diamante (mm): "))
 x1 = d1 / (2 * r)
 x2 = d2 / (2 * r)
 
-if x1 > 1:
+if x1 > 1 and superficie == '1':
     print("\nPor favor seleccione una fresa de diamante de menor diametro")
     d1 = float(input("Colocar el diametro interior de la fresa de diamante (mm): "))
+    d2 = float(input("Colocar el diametro exterior de la fresa de diamante (mm): "))
     
-if x2 > 1:
+if x2 > 1 and superficie == '2':
     print("\nPor favor seleccione una fresa de diamante de menor diametro")
+    d1 = float(input("Colocar el diametro interior de la fresa de diamante (mm): "))
     d2 = float(input("Colocar el diametro exterior de la fresa de diamante (mm): "))
 
 x1 = d1 / (2 * r)
