@@ -5,19 +5,21 @@ r = float(input("Colocar el radio de curvatura de la superficie (mm): "))
 d = float(input("Colocar el diametro medio de la fresa de diamante (mm): "))
 e = float(input("Colocar el radio de curvatura del filo de la fresa (mm): "))
 
-x = d / (2 * (r - e))
+x1 = d / (2 * (r - e))
+x2 = d / (2 * (r + e))
 
-if x > 1:
+if x1 > 1 or x2 > 1:
     print("\nPor favor seleccione una fresa de diamante de menor diametro")
     d = float(input("Colocar el diametro medio de la fresa de diamante (mm): "))
-    e = float(input("Colocar el radio de curvatura del filo de la fresa (mm): "))
+e = float(input("Colocar el radio de curvatura del filo de la fresa (mm): "))
 
-x = d / (2 * (r - e))
+x1 = d / (2 * (r - e))
+x2 = d / (2 * (r + e))
 
 if superficie == '1':
-    alpha = asin(x)
+    alpha = asin(x1)
 else:
-    alpha = asin(x)
+    alpha = asin(x2)
 
 grados = alpha * (180 / pi)
 
