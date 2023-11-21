@@ -44,7 +44,7 @@ def printmaze(mazemap):
 
     for i in range(len(mazemap)):
         line1 += "+"
-        code = FILL_CODES[mazework[i]%32]
+        code = FILL_CODES[mazework[i]%36]
         if (mazemap[i] & NORTH) != 0 or ((mazemap[i-16] & SOUTH) != 0 and i > 15):
             line1 += "-"
 
@@ -228,7 +228,7 @@ def checkmaze(mazemap):
 
 #modify maze
 
-fred = "240EUEUEUNRNSRNSRNSrnedewdewdwsrnsrnsrnsresuwnrnsrnsrnsresuewuewuewuenlnslnslnslnwdewdselswuwuwuwnre"
+fred = "240EUEUEUNRNSRNSRNSrnedewdewdwsrnsrnsrnsresuwnrnsrnsrnsresuewuewuewuenlnslnslnslnwdewdselswuwuw"
 setp(fred)
 fred2= "128nrnrnrnrnrnrnrnrnrnrnrnrnrnrnrn"            
 setp(fred2)
