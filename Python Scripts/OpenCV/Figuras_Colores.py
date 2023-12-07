@@ -1,5 +1,15 @@
 import cv2
 import numpy as np
+import os
+import platform
+
+absolute_path = os.path.dirname(__file__)
+sistema = platform.system()
+
+if sistema == 'Linux':
+    file = absolute_path + '/FigurasColores2.png'
+else:
+    file = absolute_path + '\FigurasColores2.png'
 
 def figColor(imagenHSV):
 	# Rojo
@@ -80,7 +90,7 @@ def figName(contorno,width,height):
 
 	return namefig
 	
-imagen = cv2.imread('FigurasColores2.png')
+imagen = cv2.imread(file)
 gray = cv2.cvtColor(imagen, cv2.COLOR_BGR2GRAY)
 canny = cv2.Canny(gray, 10,150)
 canny = cv2.dilate(canny,None,iterations=1)

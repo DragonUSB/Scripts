@@ -1,9 +1,20 @@
 import cv2
 import numpy as np
+import os
+import platform
 
-cap = cv2.VideoCapture('Aeropuerto.mp4')
+absolute_path = os.path.dirname(__file__)
+sistema = platform.system()
+
+if sistema == 'Linux':
+    file = absolute_path + '/Aeropuerto.mp4'
+else:
+    file = absolute_path + '\Aeropuerto.mp4'
+
+cap = cv2.VideoCapture(file)
 
 fgbg = cv2.bgsegm.createBackgroundSubtractorMOG()
+# fgbg = cv2.createBackgroundSubtractorMOG2()
 kernel = cv2.getStructuringElement(cv2.MORPH_ELLIPSE,(3,3))
 
 while True:

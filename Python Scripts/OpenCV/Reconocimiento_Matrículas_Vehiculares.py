@@ -1,9 +1,20 @@
 import cv2
 import pytesseract
+import os
+import platform
+
+absolute_path = os.path.dirname(__file__)
+sistema = platform.system()
+
+if sistema == 'Linux':
+    file = absolute_path + '/Nueva-Placa.jpg'
+else:
+    file = absolute_path + '\Nueva-Placa.jpg'
+
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract'
 placa = []
 
-image = cv2.imread('OpenCV/Nueva-Placa.jpg')
+image = cv2.imread(file)
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 gray = cv2.blur(gray,(3,3))
 canny = cv2.Canny(gray,150,200)

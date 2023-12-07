@@ -1,7 +1,17 @@
 import cv2
 import numpy as np
+import os
+import platform
 
-cap = cv2.VideoCapture('OpenCV\Video2.mp4')
+absolute_path = os.path.dirname(__file__)
+sistema = platform.system()
+
+if sistema == 'Linux':
+    file = absolute_path + '/Video2.mp4'
+else:
+    file = absolute_path + '\Video2.mp4'
+
+cap = cv2.VideoCapture(file)
 
 bg = None
 

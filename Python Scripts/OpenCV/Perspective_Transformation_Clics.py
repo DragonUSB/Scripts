@@ -1,5 +1,15 @@
 import cv2
 import numpy as np
+import os
+import platform
+
+absolute_path = os.path.dirname(__file__)
+sistema = platform.system()
+
+if sistema == 'Linux':
+    file = absolute_path + '/gato.jpeg'
+else:
+    file = absolute_path + '\gato.jpeg'
 
 def clics(event,x,y,flags,param):
     global puntos
@@ -14,7 +24,7 @@ def uniendo4puntos(puntos):
     cv2.line(imagen,tuple(puntos[1]),tuple(puntos[3]),(255,0,0),1)
 
 puntos = []
-imagen = cv2.imread('OpenCV/gato.jpeg')
+imagen = cv2.imread(file)
 aux = imagen.copy()
 cv2.namedWindow('Imagen')
 cv2.setMouseCallback('Imagen',clics)

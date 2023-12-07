@@ -1,10 +1,21 @@
 import cv2
 import numpy as np
 import imutils
+import os
+import platform
 
-cap = cv2.VideoCapture('OpenCV/autos.mp4')
+absolute_path = os.path.dirname(__file__)
+sistema = platform.system()
+
+if sistema == 'Linux':
+    file = absolute_path + '/Autos.mp4'
+else:
+    file = absolute_path + '\Autos.mp4'
+
+cap = cv2.VideoCapture(file)
 
 fgbg = cv2.bgsegm.createBackgroundSubtractorMOG()
+# fgbg = cv2.createBackgroundSubtractorMOG2()
 kernel = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (3, 3))
 car_counter = 0
 
@@ -53,7 +64,7 @@ while True:
     cv2.imshow('frame', frame)
 
     k = cv2.waitKey(70) & 0xFF
-    if k ==27:
+    if k == 27:
         break
 
 cap.release()

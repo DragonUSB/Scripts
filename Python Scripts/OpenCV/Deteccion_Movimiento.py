@@ -1,7 +1,17 @@
 import cv2
 import numpy as np
+import os
+import platform
 
-video = cv2.VideoCapture('Video1.mp4')
+absolute_path = os.path.dirname(__file__)
+sistema = platform.system()
+
+if sistema == 'Linux':
+    file = absolute_path + '/Video1.mp4'
+else:
+    file = absolute_path + '\Video1.mp4'
+
+video = cv2.VideoCapture(file)
 # video = cv2.VideoCapture(0,cv2.CAP_DSHOW)
 
 i = 0

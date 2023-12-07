@@ -1,5 +1,15 @@
 import cv2
 import numpy as np
+import os
+import platform
+
+absolute_path = os.path.dirname(__file__)
+sistema = platform.system()
+
+if sistema == 'Linux':
+    file = absolute_path + '/Lunares.png'
+else:
+    file = absolute_path + '\Lunares.png'
 
 def dibujarContorno(contornos, color):
 	for (i, c) in enumerate(contornos):
@@ -24,7 +34,7 @@ rojoAlto1 = np.array([10, 255, 255], np.uint8)
 rojoBajo2 = np.array([175, 100, 20], np.uint8)
 rojoAlto2 = np.array([180, 255, 255], np.uint8)
 
-imagen = cv2.imread('OpenCV\lunares.png')
+imagen = cv2.imread(file)
 imagenHSV = cv2.cvtColor(imagen, cv2.COLOR_BGR2HSV)
 
 #Detectando colores 

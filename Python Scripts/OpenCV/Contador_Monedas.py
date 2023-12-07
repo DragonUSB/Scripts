@@ -1,6 +1,16 @@
 import cv2
+import os
+import platform
 
-imagen = cv2.imread('OpenCV\Monedas.jpg')
+absolute_path = os.path.dirname(__file__)
+sistema = platform.system()
+
+if sistema == 'Linux':
+    file = absolute_path + '/Monedas.jpg'
+else:
+    file = absolute_path + '\Monedas.jpg'
+
+imagen = cv2.imread(file)
 grises = cv2.cvtColor(imagen, cv2.COLOR_BGR2GRAY)
 _,th =  cv2.threshold(grises, 240, 255, cv2.THRESH_BINARY_INV)
 #Para OpenCV 3

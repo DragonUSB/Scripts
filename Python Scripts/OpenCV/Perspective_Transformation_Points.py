@@ -1,7 +1,17 @@
 import cv2
 import numpy as np
+import os
+import platform
 
-imagen = cv2.imread('OpenCV/gato.jpeg')
+absolute_path = os.path.dirname(__file__)
+sistema = platform.system()
+
+if sistema == 'Linux':
+    file = absolute_path + '/gato.jpeg'
+else:
+    file = absolute_path + '\gato.jpeg'
+
+imagen = cv2.imread(file)
 
 cv2.circle(imagen, (40, 33), 7, (255,0,0), 2)
 cv2.circle(imagen, (469, 41), 7, (0,255,0), 2)

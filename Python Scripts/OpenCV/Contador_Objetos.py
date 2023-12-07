@@ -1,6 +1,16 @@
 import cv2
+import os
+import platform
 
-imagen = cv2.imread('OpenCV\Cartas.png')
+absolute_path = os.path.dirname(__file__)
+sistema = platform.system()
+
+if sistema == 'Linux':
+    file = absolute_path + '/Cartas.png'
+else:
+    file = absolute_path + '\Cartas.png'
+
+imagen = cv2.imread(file)
 grises = cv2.cvtColor(imagen, cv2.COLOR_BGR2GRAY)
 bordes = cv2.Canny(grises, 100, 200)
 

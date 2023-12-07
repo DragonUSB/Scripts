@@ -1,0 +1,60 @@
+// This source code is subject to the terms of the Mozilla Public License 2.0 at https://mozilla.org/MPL/2.0/
+
+
+//@version=5
+indicator("Alfa Averages BB3",overlay = true)
+
+// ----------- Inputs {
+
+string SMAZ                         =  "➞ SMA Settings 🔸" 
+string BBZ                          =  "➞ BB Settings 🔸" 
+int Length                          = input.int(34,title = "Length",group = BBZ,inline = "01")
+float source                        = input.source(close,group = BBZ,inline = "01")
+color BBcolor                       = input.color(color.gray,group = BBZ,inline = "01",title = "Color")
+float multi                         = input.float(2.0,title  = "Multi 1️⃣",group = BBZ,inline = "02")
+float multi1                        = input.float(2.5,title = "Multi 2️⃣",group = BBZ,inline = "02")
+float multi2                        = input.float(3.0,title = "Multi 3️⃣",group = BBZ,inline = "02")
+bool USESMA1                        = input.bool(true,"SMA 50    ➡️  ",group = SMAZ,inline = "01")
+string linew                        = input.string("1",options = ["1","2","3"],group = SMAZ,inline = "01",title = "Line Width")
+color SMA1Col                       = input.color(color.new(color.aqua,30),group = SMAZ,inline = "01",title = "")
+bool USESMA2                        = input.bool(true,"SMA 66    ➡️  ",group = SMAZ,inline = "02")
+string linew2                       = input.string("1",options = ["1","2","3"],group = SMAZ,inline = "02",title = "Line Width")
+color SMA1Co2                       = input.color(color.new(#3fda4f, 30),group = SMAZ,inline = "02",title = "\t\t\t")
+bool USESMA3                        = input.bool(true,"SMA 200  ➡️  ",group = SMAZ,inline = "03")
+string linew3                       = input.string("1",options = ["1","2","3"],group = SMAZ,inline = "03",title = "Line Width")
+color SMA1Co3                       = input.color(color.new(#d09e3b, 30),group = SMAZ,inline = "03",title = "")
+bool USESMA4                        = input.bool(true,"SMA 300  ➡️  ",group = SMAZ,inline = "04")
+string linew4                       = input.string("1",options = ["1","2","3"],group = SMAZ,inline = "04",title = "Line Width")
+color SMA1Co4                       = input.color(color.new(#631c64, 30),group = SMAZ,inline = "04",title = "")
+bool USESMA5                        = input.bool(true,"SMA 800  ➡️  ",group = SMAZ,inline = "05")
+string linew5                       = input.string("1",options = ["1","2","3"],group = SMAZ,inline = "05",title = "Line Width")
+color SMA1Co5                       = input.color(color.new(#223972, 30),group = SMAZ,inline = "05",title = "")
+float sma1                          = ta.sma(close,50)
+float sma2                          = ta.sma(close,66)
+float sma3                          = ta.sma(close,200)
+float sma4                          = ta.sma(close,300)
+float sma5                          = ta.sma(close,800)
+int line1                           = linew == "1" ? 1 : linew == "2" ? 2 : 3
+int line2                           = linew2 == "1" ? 1 : linew2 == "2" ? 2 : 3
+int line3                           = linew3 == "1" ? 1 : linew3 == "2" ? 2 : 3
+int line4                           = linew4 == "1" ? 1 : linew4 == "2" ? 2 : 3
+int line5                           = linew5 == "1" ? 1 : linew5 == "2" ? 2 : 3
+[middle, upper, lower]              = ta.bb(source, Length, multi)
+[middle1, upper1, lower1]           = ta.bb(source, Length, multi1)
+[middle2, upper2, lower2]           = ta.bb(source, Length, multi2)
+
+//---}
+
+//---------- Plotting {
+plot(USESMA1 ? sma1 : na ,color =SMA1Col ,editable = false,linewidth = line1)
+plot(USESMA2 ? sma2 : na ,color =SMA1Co2 ,editable = false,linewidth = line2)
+plot(USESMA3 ? sma3 : na ,color =SMA1Co3 ,editable = false,linewidth = line3)
+plot(USESMA4 ? sma4 : na ,color =SMA1Co4 ,editable = false,linewidth = line4)
+plot(USESMA5 ? sma5 : na ,color =SMA1Co5 ,editable = false,linewidth = line5)
+plot(upper, color=BBcolor,editable = false)
+plot(lower, color=BBcolor,editable = false)
+plot(upper1, color=BBcolor,editable = false)
+plot(lower1, color=BBcolor,editable = false)
+plot(upper2, color=BBcolor,editable = false)
+plot(lower2, color=BBcolor,editable = false)
+//-------}

@@ -1,6 +1,16 @@
 import cv2
+import os
+import platform
 
-imagen = cv2.imread('OpenCV\Ave.jpg')
+absolute_path = os.path.dirname(__file__)
+sistema = platform.system()
+
+if sistema == 'Linux':
+    file = absolute_path + '/Ave.jpg'
+else:
+    file = absolute_path + '\Ave.jpg'
+
+imagen = cv2.imread(file)
 flip_1 = cv2.flip(imagen,10)
 
 cv2.startWindowThread()
