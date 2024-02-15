@@ -6,7 +6,7 @@ import pywhatkit
 try: 
 
   # Enviamos el mensaje
-  pywhatkit.sendwhatmsg("+584247585681", "Mensaje De Prueba%0AMensaje De Prueba", 21,05) 
+  pywhatkit.sendwhatmsg("+584161156701", "Mensaje De Prueba%0AMensaje De Prueba", 9, 24) 
   print("Mensaje Enviado") 
 
 except: 
