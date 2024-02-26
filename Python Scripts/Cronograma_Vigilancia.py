@@ -1,4 +1,6 @@
 import random
+import pandas as pd
+from openpyxl.workbook import Workbook 
 
 Personal = ['Bernardo Conquet', 'Miguel Palmera', 'Jairo Peña', 'Henry Flores', 'Jairo Prieto', 'Juan Gil', 'Jackson Diaz', 'Anderson Ramirez', 'Miguel Contreras']
 Mañana = ['Bernardo Conquet', 'Jairo Peña', 'Henry Flores', 'Jairo Prieto', 'Jackson Diaz', 'Anderson Ramirez']
@@ -29,3 +31,8 @@ for i in range(5):
 
 print(Semana_Mañana)
 print(Semana_Tarde)
+
+Semana1 = pd.DataFrame([Semana_Mañana, Semana_Tarde],
+                   index=['row 1', 'row 2'],
+                   columns=['Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes'])
+Semana1.to_excel("Python Scripts/Cronograma_Vigilancia.xlsx")
