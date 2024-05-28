@@ -23,7 +23,7 @@ for i in range(5):
 
     while t:
         T = random.randint(0, len(Personal)-1)
-        if (Personal[T] in Tarde) and (Personal[T] not in Semana_Tarde) and (Personal[T] not in Vacaciones):
+        if (Personal[T] in Tarde) and (Personal[T] not in Semana_Tarde) and (Personal[T] not in Vacaciones) and (M != T):
             Semana_Tarde.append(Personal[T])
             t = False
         else:
