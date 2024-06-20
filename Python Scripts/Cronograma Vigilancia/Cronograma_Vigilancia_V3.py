@@ -11,7 +11,7 @@ def Semana():
     Personal = ['Bernardo Conquet', 'Miguel Palmera', 'Jairo Peña', 'Henry Flores', 'Jairo Prieto', 'Juan Gil', 'Jackson Diaz', 'Anderson Ramirez', 'Miguel Contreras']
     Mañana = ['Bernardo Conquet', 'Jairo Peña', 'Henry Flores', 'Jairo Prieto', 'Anderson Ramirez']
     Tarde = ['Bernardo Conquet', 'Miguel Palmera', 'Jairo Prieto', 'Juan Gil', 'Miguel Contreras', 'Jackson Diaz']
-    Vacaciones = ['Anderson Ramirez', 'Jackson Diaz']
+    Vacaciones = ['Anderson Ramirez', 'Jackson Diaz', 'Miguel Palmera']
 
     Semana_Mañana = []
     Semana_Tarde = []
@@ -149,6 +149,6 @@ ws.column_dimensions['G'].width = 19
 ws.column_dimensions['H'].width = 19
 
 # Save the file
-wb.save("Python Scripts/Cronograma_Vigilancia.xlsx")
+wb.save("C:\\Users\\Equipo\\Documents\\Github\\Scripts\\Python Scripts\\Cronograma_Vigilancia.xlsx")
 
-os.system('start "excel" "Python Scripts/Cronograma_Vigilancia.xlsx"')
+os.system('start "excel" "C:\\Users\\Equipo\\Documents\\Github\\Scripts\\Python Scripts\\Cronograma_Vigilancia.xlsx"')
