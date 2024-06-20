@@ -149,6 +149,6 @@ ws.column_dimensions['G'].width = 19
 ws.column_dimensions['H'].width = 19
 
 # Save the file
-wb.save("C:\\Users\\Equipo\\Documents\\Github\\Scripts\\Python Scripts\\Cronograma_Vigilancia.xlsx")
+wb.save("C:\\Users\\Equipo\\Documents\\Github\\Scripts\\Python Scripts\\Cronograma Vigilancia\\Cronograma_Vigilancia.xlsx")
 
-os.system('start "excel" "C:\\Users\\Equipo\\Documents\\Github\\Scripts\\Python Scripts\\Cronograma_Vigilancia.xlsx"')
+os.system('start "excel" "C:\\Users\\Equipo\\Documents\\Github\\Scripts\\Python Scripts\\Cronograma Vigilancia\\Cronograma_Vigilancia.xlsx"')
