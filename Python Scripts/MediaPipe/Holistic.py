@@ -4,7 +4,7 @@ mp_drawing = mp.solutions.drawing_utils
 mp_holistic = mp.solutions.holistic
 
 # For static images:
-IMAGE_FILES = []
+IMAGE_FILES = ['Scripts\Python Scripts\MediaPipe\pexels-polina-tankilevitch-5385708.jpg']
 with mp_holistic.Holistic(
     static_image_mode=True,
     model_complexity=2) as holistic:
@@ -22,8 +22,8 @@ with mp_holistic.Holistic(
       )
     # Draw pose, left and right hands, and face landmarks on the image.
     annotated_image = image.copy()
-    mp_drawing.draw_landmarks(
-        annotated_image, results.face_landmarks, mp_holistic.FACE_CONNECTIONS)
+    # mp_drawing.draw_landmarks(
+    #     annotated_image, results.face_landmarks, mp_holistic.FACE_CONNECTIONS)
     mp_drawing.draw_landmarks(
         annotated_image, results.left_hand_landmarks, mp_holistic.HAND_CONNECTIONS)
     mp_drawing.draw_landmarks(
@@ -33,37 +33,37 @@ with mp_holistic.Holistic(
     cv2.imwrite('/tmp/annotated_image' + str(idx) + '.png', annotated_image)
 
 # For webcam input:
-cap = cv2.VideoCapture(0)
-with mp_holistic.Holistic(
-    min_detection_confidence=0.5,
-    min_tracking_confidence=0.5) as holistic:
-  while cap.isOpened():
-    success, image = cap.read()
-    if not success:
-      print("Ignoring empty camera frame.")
-      # If loading a video, use 'break' instead of 'continue'.
-      continue
+# cap = cv2.VideoCapture(0)
+# with mp_holistic.Holistic(
+#     min_detection_confidence=0.5,
+#     min_tracking_confidence=0.5) as holistic:
+#   while cap.isOpened():
+#     success, image = cap.read()
+#     if not success:
+#       print("Ignoring empty camera frame.")
+#       # If loading a video, use 'break' instead of 'continue'.
+#       continue
 
-    # Flip the image horizontally for a later selfie-view display, and convert
-    # the BGR image to RGB.
-    image = cv2.cvtColor(cv2.flip(image, 1), cv2.COLOR_BGR2RGB)
-    # To improve performance, optionally mark the image as not writeable to
-    # pass by reference.
-    image.flags.writeable = False
-    results = holistic.process(image)
+#     # Flip the image horizontally for a later selfie-view display, and convert
+#     # the BGR image to RGB.
+#     image = cv2.cvtColor(cv2.flip(image, 1), cv2.COLOR_BGR2RGB)
+#     # To improve performance, optionally mark the image as not writeable to
+#     # pass by reference.
+#     image.flags.writeable = False
+#     results = holistic.process(image)
 
-    # Draw landmark annotation on the image.
-    image.flags.writeable = True
-    image = cv2.cvtColor(image, cv2.COLOR_RGB2BGR)
-    mp_drawing.draw_landmarks(
-        image, results.face_landmarks, mp_holistic.FACE_CONNECTIONS)
-    mp_drawing.draw_landmarks(
-        image, results.left_hand_landmarks, mp_holistic.HAND_CONNECTIONS)
-    mp_drawing.draw_landmarks(
-        image, results.right_hand_landmarks, mp_holistic.HAND_CONNECTIONS)
-    mp_drawing.draw_landmarks(
-        image, results.pose_landmarks, mp_holistic.POSE_CONNECTIONS)
-    cv2.imshow('MediaPipe Holistic', image)
-    if cv2.waitKey(5) & 0xFF == 27:
-      break
-cap.release()
+#     # Draw landmark annotation on the image.
+#     image.flags.writeable = True
+#     image = cv2.cvtColor(image, cv2.COLOR_RGB2BGR)
+#     mp_drawing.draw_landmarks(
+#         image, results.face_landmarks, mp_holistic.FACE_CONNECTIONS)
+#     mp_drawing.draw_landmarks(
+#         image, results.left_hand_landmarks, mp_holistic.HAND_CONNECTIONS)
+#     mp_drawing.draw_landmarks(
+#         image, results.right_hand_landmarks, mp_holistic.HAND_CONNECTIONS)
+#     mp_drawing.draw_landmarks(
+#         image, results.pose_landmarks, mp_holistic.POSE_CONNECTIONS)
+#     cv2.imshow('MediaPipe Holistic', image)
+#     if cv2.waitKey(5) & 0xFF == 27:
+#       break
+# cap.release()
