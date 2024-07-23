@@ -4,8 +4,8 @@ import imutils
 mp_face_detection = mp.solutions.face_detection
 mp_drawing = mp.solutions.drawing_utils
 
-cap = cv2.VideoCapture(0, cv2.CAP_DSHOW)
-#cap = cv2.VideoCapture("video.mp4")
+# cap = cv2.VideoCapture(0, cv2.CAP_DSHOW)
+cap = cv2.VideoCapture('Scripts\Python Scripts\MediaPipe\Video_0001.mp4')
 
 with mp_face_detection.FaceDetection(
     min_detection_confidence=0.5) as face_detection:
