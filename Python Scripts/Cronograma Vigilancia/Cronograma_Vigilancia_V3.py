@@ -11,7 +11,7 @@ def Semana():
     Personal = ['Bernardo Conquet', 'Miguel Palmera', 'Jairo Peña', 'Henry Flores', 'Jairo Prieto', 'Juan Gil', 'Jackson Diaz', 'Anderson Ramirez', 'Miguel Contreras']
     Mañana = ['Bernardo Conquet', 'Jairo Peña', 'Henry Flores', 'Jairo Prieto', 'Anderson Ramirez']
     Tarde = ['Bernardo Conquet', 'Miguel Palmera', 'Jairo Prieto', 'Juan Gil', 'Miguel Contreras', 'Jackson Diaz']
-    Vacaciones = ['Anderson Ramirez', 'Jackson Diaz', 'Miguel Palmera', 'Jairo Peña']
+    Vacaciones = ['Jackson Diaz', 'Miguel Palmera', 'Jairo Peña']
 
     Semana_Mañana = []
     Semana_Tarde = []
